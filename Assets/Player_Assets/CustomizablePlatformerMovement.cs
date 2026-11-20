@@ -16,7 +16,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D),typeof(Animator))]
 
-public class CustomizablePlatformerMovement : MonoBehaviour
+public class CustomizeablePlayerMovement: MonoBehaviour
 {
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float sprintSpeed = 10f;
