@@ -34,7 +34,7 @@ public class CustomizeablePlayerMovement: MonoBehaviour
     // Handle input
     public bool controlEnabled { get; set; } = true; // You can edit this variable from Unity Events
     private Vector2 moveInput;
-    private Vector2 velocity;
+    [SerializeField]private Vector2 velocity;
     private bool jumpInput;
 
 
